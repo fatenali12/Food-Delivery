@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Kalam&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+     <!-- Starting  Nav Bullets -->
+
+     <div class="nav-bullets">
+
+        <div class="bullet" data-section=".about-us">
+
+            <div class="tooltip">About Us</div>
+
+        </div>
+
+        <div class="bullet" data-section=".ourmenu">
+
+            <div class="tooltip">Our Menu</div>
+            
+        </div>
+
+        <div class="bullet" data-section=".testimonials">
+
+            
+            <div class="tooltip">Testimonials</div>
+            
+        </div>
+
+        <div class="bullet" data-section=".contact">
+
+            <div class="tooltip">Contact Us</div>
+
+        </div>
+
+    
+         
+    </div>
+
+
+
+      <!-- Ending Nav Bullets -->
+
+
+
+
+
+    <!-- Starting Upper Nav -->
+
+    
+
+    <div class="upper-section">
+
+       
+
+        <div class="container">
+
+            <div class="upper-box">
+
+                <div class="left">
+
+                    <a href="#" ><i class="fa fa-envelope">  Yamyfoodorderingsite@gmail.com</i></a>
+                    <a href="#"><i class="fa fa-phone">  +(123)45678</i></a>
+                        
+                </div>
+            
+                <div class="right">
+            
+                    <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.google.com"><i class="fa fa-google"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                    <a href="Signin.html"><i class="fa fa-sign-in"> Sign in</i></a>
+                    <a href="Signup.html"><i class="fa fa-sign-out"> Sign out</i></a>
+            
+                </div>
+
+            </div>   
+        </div>    
+    </div>
+    
+
+
+
+
+    <!-- Ending Upper Nav -->
+
+  
+
+    <!-- Starting Navbar -->
+
+
+    <div class="section-top">
+        
+        <div class="nav">
+            <div class="container">
+
+                <div class="header-area">
+
+                    <span class="logo">YaMi</span>
+                    <div class="links-container">
+                    <ul class="links">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="#"  data-section=".about-us">About</a></li>
+                        <li><a href="#"  data-section=".ourmenu">Our Menu</a></li>
+                        <li><a href="#"  data-section=".testimonials">Testimonials</a></li>
+                        <li><a href="#"  data-section=".contact">Contact Us</a></li>
+                        <li><a href="#" class="adminlink">Admin</a></li>
+                        
+                        <ul class="sublink">
+
+                            <li><a href="#" class="anadmin">I'm an Admin</a></li>
+
+                        </ul>
+                        <ul class="mylist">
+
+                            <li><a href="meals.html">Add a new Meal</a></li>
+                            
+                            <li><a href="orderslist.html">List of Orders</a></li>
+                            
+                        </ul>
+                    </ul>
+
+                    
+                    <button class="toggle-menu">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </button>
+                    
+                   
+                </div>
+
+                </div>
+                
+            </div>
+        </div>    
+        
+       
+    </div>
+   
+    <!-- Ending Navbar -->
+
+
+
+      <!-- Starting Slider -->
+
+    <div class="about-us">
+
+        <div class="container">
+
+        
+            <h2>Welcome to food Delivery</h2>
+
+            <p>Food Delivery is the best way to find local resturents that deliver to you or quickly order food online.
+               Whether looking for breakfast,lunch,dinner or late night snack , we have it all .
+            </p>
+           
+            <img src="Images/01.jpeg" id="myimg" alt="">
+
+        </div>  
+
+    </div>
+
+
+
+      <!-- Ending Slider -->
+
+
+
+
+      <!-- Starting OurMenu -->
+
+        <div class="ourmenu">
+
+            <h2>Our Menu</h2>
+            
+           <div class="container">
+                
+
+                <div class="menu-box">
+                   <div class="info-box">
+                       <img src="Images/07.jpg" alt="" id="orderimg">
+                       <h3>Mushroom and cream cheese pizza</h3>
+                       <span>$18.99</span>
+                       <a href="ordering.html">Order Now</a>
+                    </div>
+                </div>
+
+
+                <div class="menu-box">
+                    <div class="info-box">
+                        <img src="Images/08.jpg" alt="">
+                        <h3>Creamy garlic prawn fettuccine</h3>
+                        <span>$14.99</span>
+                        <a href="ordering.html" class="orderbtn" data-image="Images/08.jpg" onclick="navigate()">Order Now</a>
+                     </div>
+                </div>
+
+
+
+                <div class="menu-box">
+                    <div class="info-box">
+                        <img src="Images/09.jpeg" alt="">
+                        <h3>Cheesy surprise meatballs with dottie spinach salad</h3>
+                        <span>$20.78</span>
+                        <a href="ordering.html">Order Now</a>
+                     </div>
+                </div>
+
+
+                <div class="menu-box">
+                    <div class="info-box">
+                        <img src="Images/10.jpg" alt="">
+                        <h3>Chicken schnitzel with apple salad</h3>
+                        <span>$18.64</span>
+                        <a href="ordering.html">Order Now</a>
+                    </div>
+                </div>
+
+
+                <div class="menu-box">
+                    <div class="info-box">
+                        <img src="Images/11.jpg" alt="">
+                        <h3>The Ultimate Aussie Burger with The Lot</h3>
+                        <span>$16.00</span>
+                        <a href="ordering.html">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="menu-box">
+                    <div class="info-box">
+                        <img src="Images/12.jpg" alt="">
+                        <h3>Barbecued chicken tacos with charred nectarine</h3>
+                        <span>$15.12</span>
+                        <a href="ordering.html">Order Now</a>
+                    </div>
+                </div>
+
+
+                <div class="menu-box">
+                    <div class="info-box">
+                        <img src="Images/13.jpg" alt="">
+                        <h3>Ramen burger with noodle buns and soy-sesame</h3>
+                        <span>$14.20</span>
+                        <a href="ordering.html">Order Now</a>
+                     </div>
+                </div>
+
+
+
+                <div class="menu-box">
+                    <div class="info-box">
+                        <img src="Images/14.jpg" alt="">
+                        <h3>Our most recent Recipes of the Day</h3>
+                        <span>$10.88</span>
+                        <a href="ordering.html">Order Now</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+      <!-- Ending OurMenu  -->
+
+
+      <!-- Starting Testimonials-->
+
+      <div class="testimonials">
+
+            <div class="container">
+
+            <h2>Testimonials</h2>
+
+            <div class="ts-box">
+                    
+                <p>I can't say enough about your Luxrest Restaurant! The reasonable prices, 
+                    and great atmosphere are only topped by the delicious food. 
+                    Fantastic local restaurant serving fresh, delicious.</p>
+
+                <div class="person-info">
+                    <img src="images/person-1.jpg" alt="">
+                    <h4>Mark Matt</h4>
+                    <p>Sales Director</p>
+                </div>    
+
+            </div>
+
+
+            <div class="ts-box">
+
+                <p>I can't say enough about your Luxrest Restaurant! The reasonable prices, 
+                    and great atmosphere are only topped by the delicious food.
+                    Fantastic local restaurant serving fresh,delicious.</p>
+
+                <div class="person-info">
+                    <img src="images/person-2.jpg" alt="">
+                    <h4>Brian Walters</h4>
+                    <p>Assistant Manager</p>
+                </div> 
+            </div>
+
+
+
+
+            <div class="ts-box">
+
+                <p>I can't say enough about your Luxrest Restaurant! The reasonable prices, 
+                    and great atmosphere are only topped by the delicious food.
+                    Fantastic local restaurant serving fresh,delicious.</p>
+
+                <div class="person-info">
+                    <img src="images/person-3.jpg" alt="">
+                    <h4>Alexandra Filmore</h4>
+                    <p>Sales Director</p>
+                </div>  
+            </div>
+
+
+
+
+
+
+            <div class="ts-box">
+
+                <p>All of the items I tried were absolutely delicious. 
+                    I surprised my husband and brought home a sampling of a number of menu items. 
+                    I will come back again for the food .</p>
+
+                <div class="person-info">
+                    <img src="images/person-4.jpg" alt="">
+                    <h4>Alexandra Filmore</h4>
+                    <p>Sales Director</p>
+                </div>  
+            </div>
+
+
+
+
+
+            <div class="ts-box">
+
+                <p>All of the items I tried were absolutely delicious. 
+                    I surprised my husband and brought home a sampling of a number of menu items. 
+                    I will come back again for the food .</p>
+
+                <div class="person-info">
+                    <img src="images/person-5.jpg" alt="">
+                    <h4>Alexandra Filmore</h4>
+                    <p>Sales Director</p>
+                </div>  
+            </div>
+
+
+            <div class="ts-box">
+
+                <p>All of the items I tried were absolutely delicious. 
+                    I surprised my husband and brought home a sampling of a number of menu items. 
+                    I will come back again for the food .</p>
+
+                <div class="person-info">
+                    <img src="images/person-1.jpg" alt="">
+                    <h4>Alexandra Filmore</h4>
+                    <p>Sales Director</p>
+                </div>  
+            </div>
+
+
+           
+            </div>
+      </div>
+
+
+
+
+
+    <!-- Ending Testimonials-->
+
+
+
+    <!-- Starting Contact Us -->
+
+
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+
+            <form action="">
+
+                <div class="left">
+
+                    <input type="text"  name="username"  placeholder="Your Name">
+                    <input type="text"  name="phone"  placeholder="Your Phone">
+                    <input type="email"  name="email"  placeholder="Your Email">
+                    <input type="text"  name="username"  placeholder="subject">
+
+                </div>
+
+
+                <div class="right">
+
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <!-- Ending Contact Us -->
+      
+
+
+    <!-- Starting Footer -->
+
+    <div class="footer">
+        <div class="container">
+
+            <p>Copyright &copy; Designed By Faten Ali</p>
+
+            <div class="contact-links">
+
+                <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.google.com"><i class="fa fa-google"></i></a>
+                <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+              
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Ending Footer -->
+      
+
+
+ <script src="js/main.js"></script>   
+ <script src="js/script.js"></script>
+</body>
+</html> 
